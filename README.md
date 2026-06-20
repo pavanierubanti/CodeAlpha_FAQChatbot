@@ -4,7 +4,7 @@
 
 This project is an AI-based FAQ Chatbot developed using Python. The chatbot answers user questions by matching them with a predefined set of Frequently Asked Questions (FAQs) stored in a CSV file.
 
-The system processes user input, searches for the most relevant question in the dataset, and returns the corresponding answer. This project demonstrates the basic concepts of Natural Language Processing (NLP) and chatbot development.
+The system processes user input, searches for the relevant question in the dataset, and returns the corresponding answer. This project demonstrates the basic concepts of chatbot development and Natural Language Processing (NLP).
 
 ## Features
 
@@ -20,19 +20,22 @@ The system processes user input, searches for the most relevant question in the 
 * Pandas
 * Jupyter Notebook
 * CSV Dataset
-* NLP Concepts
 
 ## Project Structure
 
 CodeAlpha_FAQChatbot/
 
-* chatbot.ipynb
-* faq.csv
-* README.md
+├── chatbot.ipynb
+
+├── faq.csv
+
+├── README.md
+
+└── chatbot_output.png
 
 ## How to Run
 
-1. Install Python and Jupyter Notebook.
+1. Install Python on your system.
 
 2. Install the required library:
 
@@ -47,10 +50,10 @@ CodeAlpha_FAQChatbot/
 ## Working
 
 1. The chatbot loads FAQ data from a CSV file.
-2. User enters a question.
+2. The user enters a question.
 3. The chatbot compares the question with the stored FAQs.
 4. If a match is found, the corresponding answer is displayed.
-5. Otherwise, a default response is shown.
+5. If no match is found, a default response is shown.
 
 ## Sample Questions
 
@@ -59,11 +62,21 @@ CodeAlpha_FAQChatbot/
 * What is Python?
 * What is NLP?
 
+## Sample Output
+
+User: What is AI?
+
+Bot: Artificial Intelligence is the simulation of human intelligence by machines.
+
+User: What is Python?
+
+Bot: Python is a popular programming language used for AI and data science.
+
 ## Future Enhancements
 
-* Advanced NLP using NLTK or SpaCy
-* Voice-based interaction
-* GUI using Tkinter
+* NLP-based similarity matching
+* Voice-enabled chatbot
+* Graphical User Interface (GUI)
 * Web deployment using Flask
 * Multi-language support
 
@@ -74,3 +87,7 @@ This project was developed as part of the Artificial Intelligence Internship at 
 ## Author
 
 Pavani Erubanti
+
+Artificial Intelligence Intern, CodeAlpha
+
+
