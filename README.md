@@ -73,4 +73,4 @@ This project was developed as part of the Artificial Intelligence Internship at 
 
 ## Author
 
-Mohith Ratnala
+Pavani Erubanti
